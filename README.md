@@ -1,4 +1,3 @@
-
 # Campus Café
 
 A three-page website for a fictional university coffee shop.
@@ -8,9 +7,13 @@ Built for CIT331 Web Technologies, Lab 4.
 - Home (index.html)
 - Menu (menu.html)
 - Order (order.html)
+- Debug (debug/bugs.html)
 
 ## Technologies
-HTML5, CSS3 and a little JavaScript. No frameworks.
+HTML5, CSS3 and JavaScript. No frameworks.
 
 ## Author
-Name: Shazia Sabir, Roll No. 0068
+Shazia Sabir, Roll No. 0068
+
+## Live Site
+Add your GitHub Pages URL after publishing.
