@@ -16,4 +16,7 @@ HTML5, CSS3 and JavaScript. No frameworks.
 Shazia Sabir, Roll No. 0068
 
 ## Live Site
-Add your GitHub Pages URL after publishing.
+
+**Live site:** https://shaziasabir006.github.io/CIT331-lab4-campus-cafe/
+
+**Repository:** https://github.com/shaziasabir006/CIT331-lab4-campus-cafe
