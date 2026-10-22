@@ -32,3 +32,29 @@ The supplied debug page has been prepared in a corrected state. For the lab's be
 | 8 | Hover background declaration lacked a semicolon | Styles pane | Added semicolon |
 | 9 | CSS selector .notes did not match HTML class .note | Styles pane | Corrected selector |
 | 10 | Note text had insufficient contrast | Lighthouse | Changed text color to #595959 |
+
+## Live site observations (Lab 4, Task 7)
+
+### 1. Localhost vs live website
+On localhost, I used HTTP and a local development server.
+My published GitHub Pages website uses HTTPS, which encrypts
+communication between the browser and the website.
+The server and remote address are different because the
+website is now hosted online instead of on my computer.
+
+### 2. HTTPS certificate
+The HTTPS certificate helps verify the website's identity
+and enables encrypted communication.
+Without HTTPS, someone on the same Wi-Fi network could
+potentially intercept or modify unencrypted traffic.
+
+### 3. localStorage
+My saved orders from localhost did not appear on the live
+website because localStorage is separated by origin.
+The localhost address and GitHub Pages address are
+different origins, so they have separate stored data.
+
+### 4. Missing page
+A page that does not exist returns HTTP status code 404.
+On the published website, this response is served by
+GitHub Pages rather than my local development server.
