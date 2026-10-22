@@ -46,3 +46,54 @@ select,
 textarea {
   max-width: 100%;
 }
+
+/* Task 5: Responsive Flexbox Layout */
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cards,
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cards > *,
+.menu-grid > * {
+  flex: 1 1 250px;
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    justify-content: center;
+  }
+
+  .cards,
+  .menu-grid {
+    flex-direction: column;
+  }
+
+  main {
+    width: calc(100% - 24px);
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    max-width: 100%;
+  }
+}
