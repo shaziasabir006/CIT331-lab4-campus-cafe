@@ -58,3 +58,13 @@ different origins, so they have separate stored data.
 A page that does not exist returns HTTP status code 404.
 On the published website, this response is served by
 GitHub Pages rather than my local development server.
+
+## CSS Specificity (Lab 4)
+
+CSS specificity determines which style is applied when multiple rules target the same element.
+
+An ID selector has higher specificity than a class selector, and a class selector has higher specificity than an element selector.
+
+For example, #main has higher specificity than .container, while .container has higher specificity than main.
+
+When two selectors have equal specificity, the rule written later in the stylesheet usually wins.
