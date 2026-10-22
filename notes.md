@@ -68,3 +68,20 @@ An ID selector has higher specificity than a class selector, and a class selecto
 For example, #main has higher specificity than .container, while .container has higher specificity than main.
 
 When two selectors have equal specificity, the rule written later in the stylesheet usually wins.
+
+## CSS Selectors (Lab 4)
+
+| # | Selector type | Example | Purpose |
+|---|---|---|---|
+| 1 | Universal | * | Selects all elements |
+| 2 | Element | p | Selects paragraphs |
+| 3 | Class | .menu-item | Selects menu items |
+| 4 | ID | #main | Selects the main content |
+| 5 | Descendant | .menu a | Selects links inside menu |
+| 6 | Child | .card-row > .card | Selects direct child cards |
+| 7 | Grouping | h1, h2, h3 | Styles multiple headings |
+| 8 | Pseudo-class | a:hover | Styles links on hover |
+| 9 | Pseudo-element | p::first-letter | Selects the first letter |
+| 10 | Attribute | input[required] | Selects required inputs |
+
+These selectors help create consistent styling, responsive layouts, and accessible interactions.
